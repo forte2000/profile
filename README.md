@@ -2,7 +2,7 @@ Simply a personal website
 
 ## 💢 Status: 
 - 🟨 In progress!
-- 💻 Webside: [kitomc.onrender.com](https://kitomc.onrender.com/)
+- 💻 Webside: [luongtloi.site](https://www.luongtloi.site/)
 ## 🍃 Information
 - 🧨 **Use:** JavaScript, SCSS, CSS, HTML.
 - 💦 **Frameworks & Styling**: ReactJS, Tailwindcss.
