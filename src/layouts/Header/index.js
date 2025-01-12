@@ -3,8 +3,8 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/animations/scale.css";
 import "tippy.js/dist/tippy.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faGithub, faDiscord, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faGithub, faDiscord, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -12,12 +12,12 @@ function Header() {
       <Discord></Discord>
       <div className='flex mt-4 gap-2 text-xl'>
         <Tippy animation='scale' content='Gmail'>
-          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='Luongloi2008lc@gmail.com'>
+          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='luongloi2k8lc@gmail.com'>
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </Tippy>
         <Tippy animation='scale' content='Github'>
-          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='https://github.com/forte2000'>
+          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='https://github.com/Forte2000'>
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </Tippy>
@@ -40,7 +40,7 @@ function Header() {
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </Tippy>
-                <Tippy animation='scale' content='Zalo'>
+        <Tippy animation='scale' content='Zalo'>
           <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='https://zalo.me/0399330519n'>
             <FontAwesomeIcon icon={faPhoneFlip} />
           </a>
@@ -48,6 +48,6 @@ function Header() {
       </div>
     </div>
   );
-}
+} 
 
 export default Header;
