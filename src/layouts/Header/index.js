@@ -40,9 +40,9 @@ function Header() {
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </Tippy>
-        <Tippy animation='scale' content='Zalo'>
-          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='https://zalo.me/0399330519'>
-            <FontAwesomeIcon icon={faZalo} />
+                <Tippy animation='scale' content='Zalo'>
+          <a target='_blank' rel='noopener noreferrer' className='rounded-full bg-cyan-200 size-[38px] items-center flex justify-center hover:bg-cyan-500' href='https://zalo.me/0399330519n'>
+            <FontAwesomeIcon icon={faPhoneFlip} />
           </a>
         </Tippy>
       </div>
